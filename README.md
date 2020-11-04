@@ -6,7 +6,7 @@ This project was developed with the following technologies
   - TypeScript
 
 # Project
-    An api for users registration
+   An api for users registration
 
 # How to contribute
 - Fork this repository

@@ -4,7 +4,13 @@ import { v4 } from 'uuid';
 const app = express();
 app.use(express.json());
 
-const users: Array<string> = [];
+interface Users {
+  id: string,
+  name: string,
+  age: string
+}
+
+const users: Users[] = [];
 
 app.get('/users', (request, response) => {
   return response.json(users);
